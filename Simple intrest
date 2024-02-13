@@ -1,0 +1,24 @@
+import java.util.Scanner;
+ public class simpleintrest calculator{
+     public static void main(String[] args){
+         Scanner sc=new Scanner(System.in);
+         System.ouy.print("enter the principal amount:");
+         double principal = Scannernextdouble();
+         System.out.print("enter the no.of years:");
+         int years=Scanner.nextint();
+         System.out.print("are u a senior citizen? (yes/no):");
+         String senior citizen status=Scanner.next();
+         double rate of intrest;
+         if(seniorcitizenstatus.equals ignorecase("yes")){
+             rateofintrest=0.12;
+         }else{
+             rateofintrest=0.10;
+         }
+         double simpleintrest calculatesimple intrest(principal,rateofintrest,years);
+         System.out.println("simple intrest:" +simpleintrest);
+         Sacnner.close();
+     }
+     public static double calculatesimpleintrest(doubleprincipal,double rate of intrest,int years){
+         return(principal*rateofintrest*years);
+     }
+ }
